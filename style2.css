@@ -28,17 +28,18 @@
   width: 100px;
   background-color: #ff9e6b;
   float: left;
+  margin-left: 10px;
 }
 
 .brown {
   height: 100px;
   background-color: #8c2727;
-  float: left;
+  clear: left;
 }
 
 .yellow {
   height: 100px;
   width: 400px;
   background-color: #fff700;
-  clear: left;
+  clear: both;
 }
