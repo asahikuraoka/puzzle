@@ -1,0 +1,44 @@
+.red {
+  height: 100px;
+  width: 400px;
+  background-color: #ff0000;
+}
+
+.purple {
+  height: 50px;
+  background-color: #cc00db;
+  float: left;
+  margin-right: 10px;
+}
+
+.greenyellow {
+  width: 150px;
+  height: 250px;
+  background-color: #00ff51;
+  float: left;
+}
+
+.blue {
+  height: 100px;
+  background-color: #0093b7;
+  float: left;
+}
+
+.orange {
+  width: 100px;
+  background-color: #ff9e6b;
+  float: left;
+}
+
+.brown {
+  height: 100px;
+  background-color: #8c2727;
+  float: left;
+}
+
+.yellow {
+  height: 100px;
+  width: 400px;
+  background-color: #fff700;
+  clear: left;
+}
