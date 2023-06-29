@@ -22,5 +22,11 @@
   height: 100px;
   width: 400px;
   background-color: yellow;
-  clear: left;
+  clear: both;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
