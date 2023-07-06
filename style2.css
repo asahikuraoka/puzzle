@@ -11,18 +11,20 @@
   float: left;
 }
 
+.wrapper {
+  float: left;
+}
+
 .purple {
   height: 50px;
   width: 150px;
   background-color: purple;
-  font: left;
 }
 
 .blue {
   height: 100px;
   width: 150px;
   background-color: blue;
-  float: left;
 }
 
 .orange {
@@ -34,14 +36,19 @@
 
 .brown {
   height: 100px;
-  width: 150px;
+  width: 250px;
   background-color: brown;
-  float: left;
+  clear: both;
 }
 
 .yellow {
   height: 100px;
   width: 400px;
   background-color: yellow;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
   clear: both;
 }
