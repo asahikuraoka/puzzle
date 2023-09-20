@@ -1,0 +1,41 @@
+.red {
+    position: relative;
+    height: 100px;
+    width: 400px;
+    background-color: red;
+  }
+  
+  .white{
+    position: absolute;
+    height: 60px;
+    width: 160px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+  }
+  
+  .greenyellow {
+    width: 150px;
+    height: 250px;
+    background-color: greenyellow;
+    float: left;
+  }
+  
+  .brown {
+    width: 250px;
+    height: 250px;
+    background-color:brown;
+    float: left;
+  }
+  
+  .yellow {
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+  }
+  
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
