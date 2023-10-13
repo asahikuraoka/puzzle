@@ -15,43 +15,43 @@
 }
 
 .wrapper{
-    float:left;
+    float: left;
 }
 
-.purple{
+.purple1{
     position: absolute;
     height: 40px;
     width: 40px;
     top: 30px;
     right: 30px;
-    float: right;
+    float: left;
     background-color: purple;
 }
 
-.purple:last-child{
+.purple2{
     position: absolute;
     height: 40px;
     width: 40px;
     top: 30px;
     right: 80px;
-    float: right;
+    float: left;
     background-color: purple;
 }
 
-.purple{
+.purple3{
     position: absolute;
     height: 40px;
     width: 40px;
     top: 30px;
     right: 130px;
-    float: right;
+    float: left;
     background-color: purple;
 }
 
 .orange{
     width: 140px;
     height: 40px;
-    margin-top: 40px;
+    top: 40px;
     background-color: orange;
     border:solid 5px;
     border-color: white;
@@ -60,7 +60,7 @@
 .orange{
     width: 140px;
     height: 40px;
-    margin-top: 10px;
+    top: 10px;
     background-color: orange;
 }
 
