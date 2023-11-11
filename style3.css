@@ -5,12 +5,18 @@
     background-color: red;
 }
 
-.wrapper {
-    float: right;
+.A {
+    position: absolute;
     background-color: white;
     padding: 10px;
-    margin-top: 20px;
-    margin-right: 20px;
+    top: 20px;
+    right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .purple {
@@ -18,16 +24,12 @@
     height: 40px;
     width: 40px;
     background-color: purple;
-}
-
-.purple:first-child{
     margin-right: 10px;
 }
 
-.purple:last-child {
-    margin-left: 10px;
+.purple:last-child{
+    margin-right: 0px;
 }
-
 
 .orange {
     width: 140px;
@@ -37,15 +39,15 @@
     border-color: white;
 }
 
-.orange:first-child{
+.orange:first-child {
     margin-bottom: 10px;
 }
 
-.orange:last-child{
+.orange:last-child {
     margin-top: 10px;
 }
 
-.wrapper2 {
+.B {
     position: absolute;
     top: 40px;
     left: 40px;
