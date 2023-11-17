@@ -5,7 +5,7 @@
     background-color: red;
 }
 
-.A {
+.white {
     position: absolute;
     background-color: white;
     padding: 10px;
@@ -13,44 +13,17 @@
     right: 20px;
 }
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .purple {
-    float: left;
     height: 40px;
     width: 40px;
     background-color: purple;
     margin-right: 10px;
+    float: left;
+    overflow: hidden;
 }
 
-.purple:last-child{
-    margin-right: 0px;
-}
-
-.orange {
-    width: 140px;
-    height: 40px;
-    background-color: orange;
-    border: solid 5px;
-    border-color: white;
-}
-
-.orange:first-child {
-    margin-bottom: 10px;
-}
-
-.orange:last-child {
-    margin-top: 10px;
-}
-
-.B {
-    position: absolute;
-    top: 40px;
-    left: 40px;
+.purple:last-child {
+    margin-right: 0;
 }
 
 .greenyellow {
@@ -66,6 +39,26 @@
     height: 250px;
     background-color: brown;
     float: left;
+}
+
+.orange {
+    width: 140px;
+    height: 40px;
+    background-color: orange;
+    border: solid 5px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    float: right;
+}
+
+.orange:last-child {
+    margin-top: 0;
 }
 
 .yellow {
