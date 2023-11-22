@@ -19,7 +19,6 @@
     background-color: purple;
     margin-right: 10px;
     float: left;
-    overflow: hidden;
 }
 
 .purple:last-child {
@@ -70,5 +69,5 @@
 .clearfix::after {
     content: "";
     display: table;
-    clear: both;
+    clear: left;
 }
