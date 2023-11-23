@@ -1,73 +1,73 @@
 .red {
-    position: relative;
-    height: 100px;
-    width: 400px;
-    background-color: red;
+  position: relative;
+  height: 100px;
+  width: 400px;
+  background-color: red;
 }
 
 .white {
-    position: absolute;
-    background-color: white;
-    padding: 10px;
-    top: 20px;
-    right: 20px;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  top: 20px;
+  right: 20px;
 }
 
 .purple {
-    height: 40px;
-    width: 40px;
-    background-color: purple;
-    margin-right: 10px;
-    float: left;
+  height: 40px;
+  width: 40px;
+  background-color: purple;
+  margin-right: 10px;
+  float: left;
 }
 
 .purple:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .greenyellow {
-    width: 150px;
-    height: 250px;
-    background-color: greenyellow;
-    float: left;
+  width: 150px;
+  height: 250px;
+  background-color: greenyellow;
+  float: left;
 }
 
 .brown {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    background-color: brown;
-    float: left;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background-color: brown;
+  float: left;
 }
 
 .orange {
-    width: 140px;
-    height: 40px;
-    background-color: orange;
-    border: solid 5px;
-    border-color: white;
-    margin-bottom: 10px;
+  width: 140px;
+  height: 40px;
+  background-color: orange;
+  border: solid 5px;
+  border-color: white;
+  margin-bottom: 10px;
 }
 
 .wrapper {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-    float: right;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  float: right;
 }
 
 .orange:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .yellow {
-    height: 100px;
-    width: 400px;
-    background-color: yellow;
+  height: 100px;
+  width: 400px;
+  background-color: yellow;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: left;
+  content: "";
+  display: table;
+  clear: left;
 }
